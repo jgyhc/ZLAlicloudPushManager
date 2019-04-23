@@ -1,0 +1,6 @@
+framework module ZLAlicloudPushManager {
+  umbrella header "ZLAlicloudPushManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

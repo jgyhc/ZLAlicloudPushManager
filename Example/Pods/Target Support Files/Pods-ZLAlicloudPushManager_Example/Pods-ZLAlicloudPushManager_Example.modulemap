@@ -1,0 +1,6 @@
+framework module Pods_ZLAlicloudPushManager_Example {
+  umbrella header "Pods-ZLAlicloudPushManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

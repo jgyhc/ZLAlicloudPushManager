@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC644FCDE14FE116D50E884C442CAAC /* ZLAlicloudPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25573B257F501B178D38F9C3BAAE6623 /* ZLAlicloudPushManager.m */; };
+		4DF4D8A29AAEBB6C0D97D1F0F8E9A8C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5E7D893BBE760AD6650966F8080C08D8 /* ZLAlicloudPushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 797FDFB81750C80AA02C642F92C178DE /* ZLAlicloudPushManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FE39E8E6C4BE309DC8B3C3EF96E5529 /* ZLAlicloudPushManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E7B7FC392951D96CC908FB2936361 /* ZLAlicloudPushManager-dummy.m */; };
+		ADB290724548CC28F0459A9C5E0755B6 /* Pods-ZLAlicloudPushManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4245163C8936DC8154280B63A9594DD9 /* Pods-ZLAlicloudPushManager_Tests-dummy.m */; };
+		AFE491793A7DA0656E20AF1E373C1623 /* Pods-ZLAlicloudPushManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D505C047CD441C848A569555D4FB85F5 /* Pods-ZLAlicloudPushManager_Example-dummy.m */; };
+		B9EA937D061F8740FCCAE946E88E5091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D7850DF9D29B6BD46F22C05AA07E739A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B23B72D79BF0AE33FD6BCE124E310870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07A41A50F8E7EEE7B3D83B292BE29FAC;
+			remoteInfo = ZLAlicloudPushManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10EFBEF8A0444BF921D221B8C74D0D7C /* ZLAlicloudPushManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZLAlicloudPushManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25573B257F501B178D38F9C3BAAE6623 /* ZLAlicloudPushManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLAlicloudPushManager.m; path = ZLAlicloudPushManager/Classes/ZLAlicloudPushManager.m; sourceTree = "<group>"; };
+		2F948CA41D7B5D7154F982A804E83B6F /* Pods-ZLAlicloudPushManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLAlicloudPushManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3859ECD0768D026845E706EBF47C4300 /* ZLAlicloudPushManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLAlicloudPushManager-prefix.pch"; sourceTree = "<group>"; };
+		3B973B29871C4E15115203B68B2F585B /* Pods-ZLAlicloudPushManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAlicloudPushManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BE71379E57C67889ECF39914660D596 /* Pods-ZLAlicloudPushManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLAlicloudPushManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4245163C8936DC8154280B63A9594DD9 /* Pods-ZLAlicloudPushManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLAlicloudPushManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		461F1A1166C2BB5BDE5D68EB448FE02E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		47A8DF0ECF54ED4C57042FAD2A429DCD /* Pods-ZLAlicloudPushManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLAlicloudPushManager_Example-resources.sh"; sourceTree = "<group>"; };
+		4CFEBED8104176C77976DC483E0198FD /* Pods-ZLAlicloudPushManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLAlicloudPushManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59E2D5D3B5A1DE1E626844DF73D74707 /* Pods-ZLAlicloudPushManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLAlicloudPushManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6223F43A20EAEEA50F13F76D85D92331 /* Pods-ZLAlicloudPushManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAlicloudPushManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B1D8E4C23F0055EE5205A7F8C50EC61 /* Pods-ZLAlicloudPushManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlicloudPushManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		797FDFB81750C80AA02C642F92C178DE /* ZLAlicloudPushManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLAlicloudPushManager.h; path = ZLAlicloudPushManager/Classes/ZLAlicloudPushManager.h; sourceTree = "<group>"; };
+		877221B43B0ADF4DC6EFE3F3F9DEE9F8 /* libPods-ZLAlicloudPushManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZLAlicloudPushManager_Tests.a"; path = "libPods-ZLAlicloudPushManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A37803382BF3938E0B9BBC0D2798E1 /* Pods-ZLAlicloudPushManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlicloudPushManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D2E7B7FC392951D96CC908FB2936361 /* ZLAlicloudPushManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLAlicloudPushManager-dummy.m"; sourceTree = "<group>"; };
+		A1B18066AA316A8599D07D04CE78C9F5 /* ZLAlicloudPushManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLAlicloudPushManager.xcconfig; sourceTree = "<group>"; };
+		AEC54677F256A5FC695249011B73A623 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = utdid/UTDID.framework; sourceTree = "<group>"; };
+		AECB01F655A8ADAF9487CD8BBBA4A52C /* libPods-ZLAlicloudPushManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZLAlicloudPushManager_Example.a"; path = "libPods-ZLAlicloudPushManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7364D4C7FB343CDDB428635FEC83F52 /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudPushSDK.framework; path = push/CloudPushSDK.framework; sourceTree = "<group>"; };
+		B995AA81048B799953B2C84156541935 /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = utils/AlicloudUtils.framework; sourceTree = "<group>"; };
+		BF8B366E4B6D6F42EDA1C74F656550DB /* Pods-ZLAlicloudPushManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlicloudPushManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC7BAC218193425C764800CD294CFB5F /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = ut/UTMini.framework; sourceTree = "<group>"; };
+		D505C047CD441C848A569555D4FB85F5 /* Pods-ZLAlicloudPushManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLAlicloudPushManager_Example-dummy.m"; sourceTree = "<group>"; };
+		E316240B718A0EFFBA1A5A8B17AF8C3C /* Pods-ZLAlicloudPushManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLAlicloudPushManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		E5D0DBC3412638BDDADC5067AA08BF11 /* libZLAlicloudPushManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZLAlicloudPushManager.a; path = libZLAlicloudPushManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61F3E813683CAE4C355EFB32701EF9D /* Pods-ZLAlicloudPushManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlicloudPushManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EBCF8F6E2889499C00DD758394520A82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2985CF76CB8B1AC853BCFBFBE6421BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF4D8A29AAEBB6C0D97D1F0F8E9A8C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578B5FE2F8234DC31F552D718DAD61E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EA937D061F8740FCCAE946E88E5091 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A331737913562A00BD517EC60401BD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7850DF9D29B6BD46F22C05AA07E739A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066DEEB74C516DD846223633F407BB4E /* AlicloudUT */ = {
+			isa = PBXGroup;
+			children = (
+				9FAC842A2FDBC9624DE95740325D5132 /* Frameworks */,
+			);
+			name = AlicloudUT;
+			path = AlicloudUT;
+			sourceTree = "<group>";
+		};
+		1069A5E5B95E662DD8498409D8641629 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D9048802412DEB346D9B0C5447F6EA /* Pods-ZLAlicloudPushManager_Example */,
+				20D86CC8219CF605EBAE87429F598090 /* Pods-ZLAlicloudPushManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		16D9048802412DEB346D9B0C5447F6EA /* Pods-ZLAlicloudPushManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				59E2D5D3B5A1DE1E626844DF73D74707 /* Pods-ZLAlicloudPushManager_Example-acknowledgements.markdown */,
+				3B973B29871C4E15115203B68B2F585B /* Pods-ZLAlicloudPushManager_Example-acknowledgements.plist */,
+				D505C047CD441C848A569555D4FB85F5 /* Pods-ZLAlicloudPushManager_Example-dummy.m */,
+				3BE71379E57C67889ECF39914660D596 /* Pods-ZLAlicloudPushManager_Example-frameworks.sh */,
+				47A8DF0ECF54ED4C57042FAD2A429DCD /* Pods-ZLAlicloudPushManager_Example-resources.sh */,
+				93A37803382BF3938E0B9BBC0D2798E1 /* Pods-ZLAlicloudPushManager_Example.debug.xcconfig */,
+				E61F3E813683CAE4C355EFB32701EF9D /* Pods-ZLAlicloudPushManager_Example.release.xcconfig */,
+			);
+			name = "Pods-ZLAlicloudPushManager_Example";
+			path = "Target Support Files/Pods-ZLAlicloudPushManager_Example";
+			sourceTree = "<group>";
+		};
+		1AFB8A743276C9D9A82EE21ED16E5F31 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4865CFA02A60A76DAC312302CFE70D6 /* ZLAlicloudPushManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		20D86CC8219CF605EBAE87429F598090 /* Pods-ZLAlicloudPushManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CFEBED8104176C77976DC483E0198FD /* Pods-ZLAlicloudPushManager_Tests-acknowledgements.markdown */,
+				6223F43A20EAEEA50F13F76D85D92331 /* Pods-ZLAlicloudPushManager_Tests-acknowledgements.plist */,
+				4245163C8936DC8154280B63A9594DD9 /* Pods-ZLAlicloudPushManager_Tests-dummy.m */,
+				2F948CA41D7B5D7154F982A804E83B6F /* Pods-ZLAlicloudPushManager_Tests-frameworks.sh */,
+				E316240B718A0EFFBA1A5A8B17AF8C3C /* Pods-ZLAlicloudPushManager_Tests-resources.sh */,
+				6B1D8E4C23F0055EE5205A7F8C50EC61 /* Pods-ZLAlicloudPushManager_Tests.debug.xcconfig */,
+				BF8B366E4B6D6F42EDA1C74F656550DB /* Pods-ZLAlicloudPushManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZLAlicloudPushManager_Tests";
+			path = "Target Support Files/Pods-ZLAlicloudPushManager_Tests";
+			sourceTree = "<group>";
+		};
+		40B202EC225C9305029C439F8C41CF6C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EBCF8F6E2889499C00DD758394520A82 /* LICENSE */,
+				461F1A1166C2BB5BDE5D68EB448FE02E /* README.md */,
+				10EFBEF8A0444BF921D221B8C74D0D7C /* ZLAlicloudPushManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		677C26F803242E8D33A3A51E23D02CA7 /* AlicloudUtils */ = {
+			isa = PBXGroup;
+			children = (
+				71C86876B21A0780869F596D784C9048 /* Frameworks */,
+			);
+			name = AlicloudUtils;
+			path = AlicloudUtils;
+			sourceTree = "<group>";
+		};
+		71C86876B21A0780869F596D784C9048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B995AA81048B799953B2C84156541935 /* AlicloudUtils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		767A45BD11C58EA073A598C4024E2CC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7364D4C7FB343CDDB428635FEC83F52 /* CloudPushSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B66DC9E34FEB1E816B01A90F828C508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEC54677F256A5FC695249011B73A623 /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1AFB8A743276C9D9A82EE21ED16E5F31 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B01C015FA1BB7B88F2F4DE88B66A0EB1 /* Pods */,
+				C2E92A0AFD2D5C7403EC50533F5BE2FC /* Products */,
+				1069A5E5B95E662DD8498409D8641629 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E5F5B7F110BE0151121832DCCFE81A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1B18066AA316A8599D07D04CE78C9F5 /* ZLAlicloudPushManager.xcconfig */,
+				9D2E7B7FC392951D96CC908FB2936361 /* ZLAlicloudPushManager-dummy.m */,
+				3859ECD0768D026845E706EBF47C4300 /* ZLAlicloudPushManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLAlicloudPushManager";
+			sourceTree = "<group>";
+		};
+		92E4464710564DFB60CEA40D9A31962D /* AlicloudPush */ = {
+			isa = PBXGroup;
+			children = (
+				767A45BD11C58EA073A598C4024E2CC8 /* Frameworks */,
+			);
+			name = AlicloudPush;
+			path = AlicloudPush;
+			sourceTree = "<group>";
+		};
+		9A68C76135E9C96246DA895C1DC4572B /* AlicloudUTDID */ = {
+			isa = PBXGroup;
+			children = (
+				7B66DC9E34FEB1E816B01A90F828C508 /* Frameworks */,
+			);
+			name = AlicloudUTDID;
+			path = AlicloudUTDID;
+			sourceTree = "<group>";
+		};
+		9FAC842A2FDBC9624DE95740325D5132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7BAC218193425C764800CD294CFB5F /* UTMini.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B01C015FA1BB7B88F2F4DE88B66A0EB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92E4464710564DFB60CEA40D9A31962D /* AlicloudPush */,
+				066DEEB74C516DD846223633F407BB4E /* AlicloudUT */,
+				9A68C76135E9C96246DA895C1DC4572B /* AlicloudUTDID */,
+				677C26F803242E8D33A3A51E23D02CA7 /* AlicloudUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2E92A0AFD2D5C7403EC50533F5BE2FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECB01F655A8ADAF9487CD8BBBA4A52C /* libPods-ZLAlicloudPushManager_Example.a */,
+				877221B43B0ADF4DC6EFE3F3F9DEE9F8 /* libPods-ZLAlicloudPushManager_Tests.a */,
+				E5D0DBC3412638BDDADC5067AA08BF11 /* libZLAlicloudPushManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4865CFA02A60A76DAC312302CFE70D6 /* ZLAlicloudPushManager */ = {
+			isa = PBXGroup;
+			children = (
+				797FDFB81750C80AA02C642F92C178DE /* ZLAlicloudPushManager.h */,
+				25573B257F501B178D38F9C3BAAE6623 /* ZLAlicloudPushManager.m */,
+				40B202EC225C9305029C439F8C41CF6C /* Pod */,
+				7E5F5B7F110BE0151121832DCCFE81A0 /* Support Files */,
+			);
+			name = ZLAlicloudPushManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FB78E567534D489B47ACEE4C70C64B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7D893BBE760AD6650966F8080C08D8 /* ZLAlicloudPushManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07A41A50F8E7EEE7B3D83B292BE29FAC /* ZLAlicloudPushManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183C80665C8CB21F5130F9292ED378A1 /* Build configuration list for PBXNativeTarget "ZLAlicloudPushManager" */;
+			buildPhases = (
+				C78952D8AFAB922134D529FCD66B865B /* Sources */,
+				A331737913562A00BD517EC60401BD11 /* Frameworks */,
+				1FB78E567534D489B47ACEE4C70C64B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLAlicloudPushManager;
+			productName = ZLAlicloudPushManager;
+			productReference = E5D0DBC3412638BDDADC5067AA08BF11 /* libZLAlicloudPushManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7D5B53A898C182828A1E44C3E2933435 /* Pods-ZLAlicloudPushManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B916A75F9A682ADCBC5644D879F91A /* Build configuration list for PBXNativeTarget "Pods-ZLAlicloudPushManager_Tests" */;
+			buildPhases = (
+				701BAF935DD1D8B42BB1E1D57F869D54 /* Sources */,
+				2985CF76CB8B1AC853BCFBFBE6421BF1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZLAlicloudPushManager_Tests";
+			productName = "Pods-ZLAlicloudPushManager_Tests";
+			productReference = 877221B43B0ADF4DC6EFE3F3F9DEE9F8 /* libPods-ZLAlicloudPushManager_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CE51BD9611FBDEAA0EB3CB6CD59CDEA0 /* Pods-ZLAlicloudPushManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1749C17210A02EA0E334B04EEAEC01 /* Build configuration list for PBXNativeTarget "Pods-ZLAlicloudPushManager_Example" */;
+			buildPhases = (
+				5342174DD21DC1FCCA165A36C21D14E2 /* Sources */,
+				578B5FE2F8234DC31F552D718DAD61E6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABCBF9A9AAEC5E7D20AD63121D8EB7A /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLAlicloudPushManager_Example";
+			productName = "Pods-ZLAlicloudPushManager_Example";
+			productReference = AECB01F655A8ADAF9487CD8BBBA4A52C /* libPods-ZLAlicloudPushManager_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C2E92A0AFD2D5C7403EC50533F5BE2FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE51BD9611FBDEAA0EB3CB6CD59CDEA0 /* Pods-ZLAlicloudPushManager_Example */,
+				7D5B53A898C182828A1E44C3E2933435 /* Pods-ZLAlicloudPushManager_Tests */,
+				07A41A50F8E7EEE7B3D83B292BE29FAC /* ZLAlicloudPushManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5342174DD21DC1FCCA165A36C21D14E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE491793A7DA0656E20AF1E373C1623 /* Pods-ZLAlicloudPushManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701BAF935DD1D8B42BB1E1D57F869D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB290724548CC28F0459A9C5E0755B6 /* Pods-ZLAlicloudPushManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78952D8AFAB922134D529FCD66B865B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE39E8E6C4BE309DC8B3C3EF96E5529 /* ZLAlicloudPushManager-dummy.m in Sources */,
+				2AC644FCDE14FE116D50E884C442CAAC /* ZLAlicloudPushManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ABCBF9A9AAEC5E7D20AD63121D8EB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLAlicloudPushManager;
+			target = 07A41A50F8E7EEE7B3D83B292BE29FAC /* ZLAlicloudPushManager */;
+			targetProxy = B23B72D79BF0AE33FD6BCE124E310870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FF819A6B2CFD6E26DA37809A01F31CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1D8E4C23F0055EE5205A7F8C50EC61 /* Pods-ZLAlicloudPushManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B715D063CA518A3B70D31064B6C7705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B18066AA316A8599D07D04CE78C9F5 /* ZLAlicloudPushManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLAlicloudPushManager/ZLAlicloudPushManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DC44BB2DF5F7895A5094CDC79884875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61F3E813683CAE4C355EFB32701EF9D /* Pods-ZLAlicloudPushManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BF549808FCDF228BFBF2E6F09416B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B18066AA316A8599D07D04CE78C9F5 /* ZLAlicloudPushManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLAlicloudPushManager/ZLAlicloudPushManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DC8410E7E6FE5961D4ECFC54F67E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8B366E4B6D6F42EDA1C74F656550DB /* Pods-ZLAlicloudPushManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE035C4358376D32D1365E4D10EB7499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A37803382BF3938E0B9BBC0D2798E1 /* Pods-ZLAlicloudPushManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183C80665C8CB21F5130F9292ED378A1 /* Build configuration list for PBXNativeTarget "ZLAlicloudPushManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF549808FCDF228BFBF2E6F09416B1B /* Debug */,
+				8B715D063CA518A3B70D31064B6C7705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B916A75F9A682ADCBC5644D879F91A /* Build configuration list for PBXNativeTarget "Pods-ZLAlicloudPushManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF819A6B2CFD6E26DA37809A01F31CA /* Debug */,
+				9DC8410E7E6FE5961D4ECFC54F67E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1749C17210A02EA0E334B04EEAEC01 /* Build configuration list for PBXNativeTarget "Pods-ZLAlicloudPushManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE035C4358376D32D1365E4D10EB7499 /* Debug */,
+				8DC44BB2DF5F7895A5094CDC79884875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
