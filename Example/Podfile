@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZLAlicloudPushManager_Example' do
+  pod 'ZLAlicloudPushManager', :path => '../'
+
+  target 'ZLAlicloudPushManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
