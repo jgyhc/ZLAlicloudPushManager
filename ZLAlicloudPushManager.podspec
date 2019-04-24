@@ -40,3 +40,4 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AlicloudPush', '~> 1.9.8'
 end
+
