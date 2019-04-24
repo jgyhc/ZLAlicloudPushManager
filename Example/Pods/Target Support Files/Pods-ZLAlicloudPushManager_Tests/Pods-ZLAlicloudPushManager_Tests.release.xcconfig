@@ -1,8 +1,6 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AlicloudPush/push" "${PODS_ROOT}/AlicloudUT/ut" "${PODS_ROOT}/AlicloudUTDID/utdid" "${PODS_ROOT}/AlicloudUtils/utils"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AlicloudPush" "${PODS_ROOT}/Headers/Public/AlicloudUT" "${PODS_ROOT}/Headers/Public/AlicloudUTDID" "${PODS_ROOT}/Headers/Public/AlicloudUtils" "${PODS_ROOT}/Headers/Public/ZLAlicloudPushManager"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZLAlicloudPushManager"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AlicloudPush" -isystem "${PODS_ROOT}/Headers/Public/AlicloudUT" -isystem "${PODS_ROOT}/Headers/Public/AlicloudUTDID" -isystem "${PODS_ROOT}/Headers/Public/AlicloudUtils" -isystem "${PODS_ROOT}/Headers/Public/ZLAlicloudPushManager"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ZLAlicloudPushManager"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"resolv" -l"sqlite3.0" -l"z" -framework "CoreTelephony" -framework "SystemConfiguration"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
