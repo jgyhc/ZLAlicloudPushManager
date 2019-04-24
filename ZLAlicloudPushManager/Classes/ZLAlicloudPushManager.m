@@ -64,7 +64,7 @@ API_AVAILABLE(ios(10.0)){
     }
 }
 
--(void)zl_RegistereISOLessThan10APNS:(UIApplication * ) application
+-(void)zl_registereISOLessThan10APNS:(UIApplication * ) application
 {
     float systemVersionNum = [[[UIDevice currentDevice] systemVersion] floatValue];
     if (systemVersionNum >= 8.0) {
@@ -89,7 +89,7 @@ API_AVAILABLE(ios(10.0)){
 /*
  *  APNs注册成功回调，将返回的deviceToken上传到CloudPush服务器。 用在 UIApplicationDelegate: didRegisterForRemoteNotificationsWithDeviceToken里面
  */
--(void)zl_RegisterDevice:(NSData *)deviceToken
+-(void)zl_registerDevice:(NSData *)deviceToken
 {
     [CloudPushSDK registerDevice:deviceToken withCallback:^(CloudPushCallbackResult *res) {
         if (res.success) {
@@ -101,7 +101,7 @@ API_AVAILABLE(ios(10.0)){
 }
 
 #pragma mark SDK Init
--(NSString *)zl_InitCloudPushWithAppKey:(NSString *)appKey withAppSecret:(NSString *)appSecret
+-(NSString *)zl_initCloudPushWithAppKey:(NSString *)appKey withAppSecret:(NSString *)appSecret
 {
     static NSString * returnValue = @"";
     [CloudPushSDK asyncInit:appKey appSecret:appSecret callback:^(CloudPushCallbackResult *res) {
@@ -115,7 +115,7 @@ API_AVAILABLE(ios(10.0)){
     }];
     return returnValue;
 }
--(void)zl_ListenerOnChannelOpened
+-(void)zl_listenerOnChannelOpened
 {
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(onChannelOpened:)
@@ -135,7 +135,7 @@ API_AVAILABLE(ios(10.0)){
 /**
  *    @brief    注册推送消息到来监听
  */
--(void)zl_RegisterMessageReceive
+-(void)zl_registerMessageReceive
 {
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(onMessageReceived:)
@@ -161,8 +161,9 @@ API_AVAILABLE(ios(10.0)){
     if(body)
         [dic setObject:body forKey:@"body"];
 }
+
 // 点击通知将App从关闭状态启动时，将通知打开回执上报
-- (void)zl_SendNotificationAck:(NSDictionary *)launchOptions {
+- (void)zl_sendNotificationAck:(NSDictionary *)launchOptions {
     [CloudPushSDK sendNotificationAck:launchOptions];
 }
 /**
@@ -253,7 +254,7 @@ API_AVAILABLE(ios(10.0)){
     completionHandler();
 }
 
-- (void)zl_DidReceiveRemoteNotificationForOldIOSVersion:(NSDictionary*)userInfo application:(UIApplication*)application {
+- (void)zl_didReceiveRemoteNotificationForOldIOSVersion:(NSDictionary*)userInfo application:(UIApplication*)application {
     NSLog(@"zl_: Receive one notification.");
     // 取得APNS通知内容
     NSDictionary *aps = [userInfo valueForKey:@"aps"];
@@ -305,7 +306,7 @@ API_AVAILABLE(ios(10.0)){
     [dic setObject:extras forKey:@"extras"];
 }
 //绑定账号
-- (int)zl_BindAccount:(NSString *)account {
+- (int)zl_bindAccount:(NSString *)account {
     static int flag = 0;
     if (account == nil || account.length == 0) {
         return flag;
@@ -323,7 +324,7 @@ API_AVAILABLE(ios(10.0)){
 }
 
 //解除账号绑定
-- (int)zl_UnbindAccount {
+- (int)zl_unbindAccount {
     static int flag = 0;
     [CloudPushSDK unbindAccount:^(CloudPushCallbackResult *res) {
         if (res.success) {
@@ -338,7 +339,7 @@ API_AVAILABLE(ios(10.0)){
 }
 
 //绑定Tag
-- (int)zl_BindTagForDevice:(NSString *)tagStr {
+- (int)zl_bindTagForDevice:(NSString *)tagStr {
     static int flag = 0;
     NSArray *tagArray = [tagStr componentsSeparatedByString:@" "];
     [CloudPushSDK bindTag:1 withTags:tagArray withAlias:nil withCallback:^(CloudPushCallbackResult *res) {
@@ -353,7 +354,7 @@ API_AVAILABLE(ios(10.0)){
     return flag;
 }
 //解除绑定Tag
-- (int)zl_UnbindTagForDevice:(NSString *)tagStr {
+- (int)zl_unbindTagForDevice:(NSString *)tagStr {
     static int flag = 0;
     NSArray *tagArray = [tagStr componentsSeparatedByString:@" "];
     [CloudPushSDK unbindTag:1 withTags:tagArray withAlias:nil withCallback:^(CloudPushCallbackResult *res) {
@@ -368,7 +369,7 @@ API_AVAILABLE(ios(10.0)){
     return flag;
 }
 //绑定别名
-- (int)zl_AddAlias:(NSString *)alias {
+- (int)zl_addAlias:(NSString *)alias {
     static int flag = 0;
     [CloudPushSDK addAlias:alias withCallback:^(CloudPushCallbackResult *res) {
         if (res.success) {
@@ -382,7 +383,7 @@ API_AVAILABLE(ios(10.0)){
     return flag;
 }
 //解除绑定别名
-- (int)zl_RemoveAlias:(NSString *)alias {
+- (int)zl_removeAlias:(NSString *)alias {
     static int flag = 0;
     [CloudPushSDK removeAlias:alias withCallback:^(CloudPushCallbackResult *res) {
         if (res.success) {
@@ -396,14 +397,14 @@ API_AVAILABLE(ios(10.0)){
     return flag;
 }
 
-- (NSString *)zl_GetSDKVersion
+- (NSString *)zl_getSDKVersion
 {
     NSString * sdkVersion = @"";
     sdkVersion = [CloudPushSDK getVersion];
     return (sdkVersion) ? sdkVersion : @"";
 }
 
-- (NSString *)zl_GetAliDeviceId
+- (NSString *)zl_getAliDeviceId
 {
     NSString * deviceId = @"";
     deviceId = [CloudPushSDK getDeviceId];
@@ -411,7 +412,7 @@ API_AVAILABLE(ios(10.0)){
 }
 
 //TODO: Pass device id to Hisense system for registration
-- (void)zl_RegisterToHsSystem: (NSDictionary *)dic
+- (void)zl_registerToHsSystem: (NSDictionary *)dic
 {
     
 }
